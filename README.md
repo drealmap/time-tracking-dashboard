@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw/hub/timetracking-dashboard-using-css-grid-and-flexbox-TUspjrX3fd](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw/hub/timetracking-dashboard-using-css-grid-and-flexbox-TUspjrX3fd)
+- Live Site URL: [https://dashboard-by-map.netlify.app](https://dashboard-by-map.netlify.app/)
 
 ## My process
 
