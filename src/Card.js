@@ -552,7 +552,7 @@ const Card = () => {
       </div>
   
 
-      {weeklystat ? <Week /> : (monthlystat ? <Month /> : <Day />) }
+      {weeklystat ? <Week /> : (monthlystat ? <Month /> : dailystat ? <Day /> : null) }
       
     </div>
   )
