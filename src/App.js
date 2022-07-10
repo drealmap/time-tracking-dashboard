@@ -12,7 +12,7 @@ import UpdateProfile from './Components/UpdateProfile/UpdateProfile'
 
 function App() {
   return (
-    <div className='container' 
+    <div className='App' 
       style={{minHeight: '100vh'}}>
       <div className='w-100' style={{maxWidth: '400px'}}>
         <Router>

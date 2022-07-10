@@ -1,6 +1,6 @@
 # Frontend Mentor - Time tracking dashboard solution
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw), although added authentication feature. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -22,9 +22,14 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 Users should be able to:
 
+- Sign up to have an account / Sign in to their account before having access to the dashboard
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
+- See the current user's account email when signed in to the dashboard
+- Update their profile whenever they want to
+- Recover their forgotten passwords 
+- Log out effectively from the dashboard
 
 ### Screenshot
 
@@ -40,6 +45,7 @@ Users should be able to:
 ### Built with
 
 - Create react app
+- Firebase authentication
 - CSS custom properties
 - Flexbox
 - CSS Grid
@@ -53,6 +59,7 @@ Users should be able to:
 - CSS flexbox
 - CSS grid
 - SVG styling
+- Firebase tools
 - Mobile-first workflow
 
 
@@ -69,4 +76,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-A big thank you to Bolaji Olapade for helping me out with answers to my questions on this project.
+A big thank you to all the developers that helped me out with answers to my questions on this project.
