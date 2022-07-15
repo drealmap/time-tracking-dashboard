@@ -6,17 +6,17 @@ const Infobox = (prop) => {
     const previous = prop.previous;
 
   return (
-    <div className='info_box'>
-        <div className='left_side'>
-            <h3>{title}</h3>
-            <h1>{current}hrs</h1>
+    <div style={{ contentVisibility: 'auto' }} className='rounded-2xl block bg-[#1c1f4a] justify-around -mt-[38px] hover:bg-[#6f76c8] hover:cursor-pointer'>
+        <div className='mt-[30px] ml-[30px]'>
+            <h3 className='text-lg text-white'>{title}</h3>
+            <h1 className='text-5xl mb-0 mt-[30px] font-semibold text-white'>{current}hrs</h1>
         </div>
-        <div className='right_side'>
-            <svg width= '21' height='5' className='ellipses' >
+        <div className='text-[#6f76c8] mt-[30px]'>
+            <svg width= '21' height='5' className='float-right -mt-[110px] mr-[30px]' >
             <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fillRule="evenodd"/>
             </svg>
 
-            <h5>Last Week - {previous}hrs</h5>
+            <h5 className='ml-[30px] -mt-4 text-[#bdc1ff] pb-2 text-sm'>Last Week - {previous}hrs</h5>
         </div>
     </div>
   )
