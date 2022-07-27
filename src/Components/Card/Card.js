@@ -35,7 +35,7 @@ const Card = () => {
 
   return (
 
-    <div className='m-auto w-10/12'>
+    <div className='m-auto w-10/12 sm:pb-8'>
       <div className='flex text-gray-300 justify-between py-4 sm:text-sm'>
         
         <div className='font-medium text-indigo-600 hover:text-indigo-500'>
@@ -54,8 +54,8 @@ const Card = () => {
       <div className='grid grid-cols-4 gap-5 justify-center items-center my-7 mx-auto w-[82%] sm:block'>
         <div className='row-span-2 bg-[#1c1f4a] rounded-[20px] sm:mt-[20px]'>
           <div className='block pt-px pb-[75px] bg-[#5847eb] rounded-[20px] sm:flex sm:pb-[20px]'>
-            <img className='border-solid border-4 rounded-full w-1/5 mx-9 mb-0 mt-9 sm:m-[25px]' src={jeremy} alt='jeremy'/>
-            <div className='ml-7 relative top-8 sm:mt-[17px] sm:top-0 sm:ml-0'>
+            <img className='border-solid border-4 rounded-full w-1/5 mx-9 mb-0 mt-9 sm:m-[25px] sm:mt-12' src={jeremy} alt='jeremy'/>
+            <div className='ml-7 relative top-8 sm:mt-[20px] sm:top-0 sm:ml-0'>
               <h5 className='text-[#bdc1ff] text-sm font-light mb-0 mt-6'>Report for</h5>
               <h3 className='text-white text-4xl tracking-[1px] mt-[7px] sm:text-[20px]'>Jeremy Robson</h3>
             </div>

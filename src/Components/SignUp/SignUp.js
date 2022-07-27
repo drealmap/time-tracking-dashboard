@@ -33,7 +33,7 @@ export default function Signup() {
     }
 
   return (
-    <div className='min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8'>
+    <div className='min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 sm:h-screen'>
         <div className='max-w-md w-full space-y-8'>
             <h2 className='mt-6 text-center text-3xl font-extrabold text-white'>Sign up</h2>
             {error && <p className='text-center text-red-600'>{error}</p>}

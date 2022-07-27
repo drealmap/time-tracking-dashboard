@@ -27,7 +27,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
 - See the current user's account email when signed in to the dashboard
-- Update their profile whenever they want to
+- Update their profile whenever they want
 - Recover their forgotten passwords 
 - Log out effectively from the dashboard
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 - Create react app
 - Firebase authentication
-- CSS custom properties
+- Tailwind CSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
@@ -61,6 +61,7 @@ Users should be able to:
 - SVG styling
 - Firebase tools
 - Mobile-first workflow
+- Tailwind CSS
 
 
 ### Useful resources
